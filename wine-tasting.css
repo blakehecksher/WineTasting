@@ -2,6 +2,8 @@ body {
 	min-height: 99vh;
 	min-width: 98vw;
 	font-size: 1rem;
+	background-color: black;
+	color: white;
 }
 
 .header {
@@ -32,7 +34,7 @@ h4 {
 }
 
 #primary {
-	background-color: green;
+	background-color: rgba(0, 80, 0, 0.5);
 	flex: 2 1 auto;
 }
 
@@ -42,11 +44,11 @@ h4 {
 }
 
 #secondary {
-	background-color: cyan;
+	background-color: hsla(180, 100%, 50%, 0.5);
 }
 
 #tertiary {
-	background-color: yellow;
+	background-color: rgba(100, 100, 1, 0.432);
 }
 
 #faults {
